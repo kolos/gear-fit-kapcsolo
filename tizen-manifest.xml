@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.uibuilderwidget" version="1.0.0">
+    <profile name="wearable"/>
+    <widget-application appid="org.example.uibuilderwidget" exec="uibuilderwidget" main="true" update-period="0">
+        <label>Kapcsoló</label>
+        <icon>uibuilderwidget.png</icon>
+        <support-size preview="screenshot.png">2x2</support-size>
+    </widget-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/screen.shape.rectangle">true</feature>
+    <feature name="http://tizen.org/feature/network.internet">true</feature>
+    <feature name="http://tizen.org/feature/network.wifi">true</feature>
+</manifest>

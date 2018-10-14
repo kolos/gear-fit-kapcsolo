@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document>
+	<mscreen>
+		<configuration device="CIRCLE_360x360" id="config1"
+			name="common" orientation="portrait" type="common" />
+	</mscreen>
+	<views startup="view1">
+		<view id="view1" indicator="true" type="view" page_location_x="0"
+			page_location_y="0"><box homogeneous="false" align_h="fill" align_v="fill" visible="true"
+				weight_v="1" padding_v="0" id="box3" padding_h="0" weight_h="1"
+				direction="vertical">
+				<table align_v="fill" visible="true" weight_v="1" padding_h="0"
+					weight_h="1" rows="2" homogeneous="false" align_h="fill" padding_v="0"
+					id="table9" cols="2">
+					<label align_v="fill" visible="true" weight_v="1" line_wrap="none"
+						weight_h="1" ellipsis="true" align_h="fill" wrap_width="0" id="label10"
+						text="Kapu" pack_col="0" pack_row="0" col_span="2" row_span="1"></label>
+					<button align_v="fill" visible="true" weight_v="1" weight_h="1"
+						align_h="fill" disable="false" style="default" id="button19" text="Gyalog"
+						pack_col="0" pack_row="1" col_span="1" row_span="1">
+						<event function_name="view1_button19_onclicked" signal="clicked" />
+					</button>
+					<button align_v="fill" visible="true" weight_v="0.8"
+						weight_h="1" col_span="1" align_h="fill" pack_row="1" row_span="1"
+						disable="false" style="default" pack_col="1" id="button21" text="Auto">
+						<event function_name="view1_button21_onclicked" signal="clicked" />
+					</button>
+				</table>
+				<table align_v="fill" visible="true" weight_v="1" padding_h="0"
+					weight_h="1" rows="2" homogeneous="false" align_h="fill" padding_v="0"
+					id="table12" cols="2">
+					<label align_v="fill" visible="true" weight_v="1" line_wrap="none"
+						weight_h="1" ellipsis="true" align_h="fill" wrap_width="0" id="label15"
+						text="Világítás" pack_col="0" pack_row="0" col_span="2" row_span="1"></label>
+					<button align_v="fill" visible="true" weight_v="0.8"
+						weight_h="1" align_h="fill" disable="false" style="default" id="button23"
+						text="BE" pack_col="0" pack_row="1" col_span="1" row_span="1">
+						<event function_name="view1_button23_onclicked" signal="clicked" />
+					</button>
+					<button align_v="fill" visible="true" weight_v="0.8"
+						weight_h="1" col_span="1" align_h="fill" pack_row="1" row_span="1"
+						disable="false" style="default" pack_col="1" id="button24" text="KI">
+						<event function_name="view1_button24_onclicked" signal="clicked" />
+					</button>
+				</table>
+				<table align_v="fill" visible="true" weight_v="1" padding_h="0"
+					weight_h="1" rows="2" homogeneous="false" align_h="fill" padding_v="0"
+					id="table13" cols="2">
+					<label align_v="fill" visible="true" weight_v="1" line_wrap="none"
+						weight_h="1" ellipsis="true" align_h="fill" wrap_width="0" id="label16"
+						text="WoL" pack_col="0" pack_row="0" col_span="2" row_span="1"></label>
+					<button align_v="fill" visible="true" weight_v="0.8"
+						weight_h="1" align_h="fill" disable="false" style="default" id="button25"
+						text="Küld" pack_col="0" pack_row="1" col_span="2" row_span="1">
+						<event function_name="view1_button25_onclicked" signal="clicked" />
+					</button>
+				</table>
+			</box>
+		</view>
+	</views>
+</document>
